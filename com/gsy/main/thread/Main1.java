@@ -1,8 +1,8 @@
-package gsy.main;
+package gsy.main.thread;
 
 
-import gsy.entity.MyRunnable;
-import gsy.entity.MyThread;
+import gsy.entity.thread.MyRunnable;
+import gsy.entity.thread.MyThread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

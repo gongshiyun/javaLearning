@@ -1,4 +1,4 @@
-package gsy.entity;
+package gsy.entity.thread;
 
 public class MyRunnable implements Runnable {
     @Override

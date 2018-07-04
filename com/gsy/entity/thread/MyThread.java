@@ -1,4 +1,4 @@
-package gsy.entity;
+package gsy.entity.thread;
 
 public class MyThread extends Thread {
     @Override

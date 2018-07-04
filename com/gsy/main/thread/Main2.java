@@ -1,6 +1,6 @@
-package gsy.main;
+package gsy.main.thread;
 
-import gsy.entity.MyTask;
+import gsy.entity.thread.MyTask;
 
 import java.util.concurrent.*;
 

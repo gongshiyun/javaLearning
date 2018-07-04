@@ -1,4 +1,4 @@
-package gsy.entity;
+package gsy.entity.thread;
 
 public class MyTask implements Runnable {
     private int taskNum;
