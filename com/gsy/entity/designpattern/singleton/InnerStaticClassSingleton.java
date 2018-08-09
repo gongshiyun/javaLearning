@@ -15,16 +15,16 @@ package gsy.entity.designpattern.singleton;
  * 优点：避免了线程不安全，延迟加载，效率高。
  * @date 2018/7/5
  */
-public class Singleton {
-    private Singleton() {
+public class InnerStaticClassSingleton {
+    private InnerStaticClassSingleton() {
 
     }
 
     private static class SingletonInstance {
-        private static final Singleton INSTANCE = new Singleton();
+        private static final InnerStaticClassSingleton INSTANCE = new InnerStaticClassSingleton();
     }
 
-    public static Singleton getInstance() {
+    public static InnerStaticClassSingleton getInstance() {
         return SingletonInstance.INSTANCE;
     }
 }
