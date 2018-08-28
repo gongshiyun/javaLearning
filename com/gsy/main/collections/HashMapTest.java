@@ -26,6 +26,8 @@ import java.util.Map;
  * 遍历方式3:通过 Map.entrySet 遍历 key 和 value: 154431
  * 遍历方式4: 通过 map.keySet().iterator() 遍历: 138950
  *
+ * 总结: 从测试结果来看,遍历方式3和4性能较优
+ *
  * @date 2018/8/3
  */
 public class HashMapTest {
